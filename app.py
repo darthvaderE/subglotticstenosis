@@ -5,7 +5,7 @@ import openpyxl
 # ... Rest of the code ...
 
 def classify_grade(value):
-    if value = 0:
+    if value <= 0:
         return "no stenosis"
     elif value > 0 and value <= 50:
         return "Grade 1"
