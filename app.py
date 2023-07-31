@@ -4,6 +4,16 @@ import openpyxl
 
 # ... Rest of the code ...
 
+def classify_grade(value):
+    if value >= 0 and value <= 50:
+        return "Grade 1"
+    elif value >= 51 and value <= 70:
+        return "Grade 2"
+    elif value >= 71 and value <= 99:
+        return "Grade 3"
+    else:
+        return "Out of Range"
+
 def main():
     # Load the Excel file using relative path
     wb = openpyxl.load_workbook('evan propst sizes.xlsx')
