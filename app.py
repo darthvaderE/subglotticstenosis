@@ -5,8 +5,8 @@ import openpyxl
 # ... Rest of the code ...
 
 def main():
-    # Load the Excel file using the absolute path
-    wb = openpyxl.load_workbook('/Users/darthvader/propst/evan propst sizes.xlsx')
+    # Load the Excel file using relative path
+    wb = openpyxl.load_workbook('evan propst sizes.xlsx')
 
     # Create a dropdown menu for the sheet name
     sheet_name = st.selectbox('ET Tube Manufacturer', wb.sheetnames)
