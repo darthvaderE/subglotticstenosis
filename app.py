@@ -36,7 +36,7 @@ def main():
     y_axis_label = st.selectbox('Age', y_axis_labels)
 
     # Create a dropdown menu for the x-axis label
-    x_axis_label = st.selectbox('Measured tube size', x_axis_labels)
+    x_axis_label = st.selectbox('Actual measured tube size', x_axis_labels)
 
     # Get the row and column indices of the selected labels
     x_axis_index = x_axis_labels.index(x_axis_label) + 2
