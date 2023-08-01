@@ -57,7 +57,7 @@ def main():
     image_path = "vader.jpg"
     image = Image.open(image_path)
 
-    st.image(image, caption='Adapted by: Darth Vader a.k.a Eishaan Bhargava https://twitter.com/darthekb', width=4)
+    st.image(image, caption='Adapted by: Darth Vader a.k.a Eishaan Bhargava https://twitter.com/darthekb', width=1)
 
 if __name__ == '__main__':
     # Use the os module to dynamically set the port
