@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import openpyxl
+from PIL import Image  # Add this import statement
 
 # ... Rest of the code ...
 
