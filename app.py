@@ -53,12 +53,11 @@ def main():
     st.write(f"Subglottic stenosis %: {value}")
     st.write(f"Cotton Myer Grade: {grade}")
     st.write("Source: Propst, E.J. and Wolter, N.E. (2023), Myer-Cotton Grade of Subglottic Stenosis Depends on Style of Endotracheal Tube Used. The Laryngoscope. https://doi.org/10.1002/lary.30577")
-    st.write("Adapted by: Darth Vader a.k.a Eishaan Bhargava https://twitter.com/darthekb")
 
     image_path = "vader.jpg"
     image = Image.open(image_path)
 
-    st.image(image, caption='Adapted by: Darth Vader a.k.a Eishaan Bhargava https://twitter.com/darthekb')
+    st.image(image, caption='Adapted by: Darth Vader a.k.a Eishaan Bhargava https://twitter.com/darthekb', width=4)
 
 if __name__ == '__main__':
     # Use the os module to dynamically set the port
